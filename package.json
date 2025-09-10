@@ -1,0 +1,52 @@
+{
+  "name": "iphone17-landing",
+  "version": "1.0.0",
+  "description": "Современная лендинг страница для продажи iPhone 17 с адаптивным дизайном и интерактивными элементами",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx live-server --port=3000 --open=/index.html",
+    "dev": "npx live-server --port=3000 --open=/index.html --watch=css,js,images",
+    "build": "echo 'Build completed - static files ready for deployment'",
+    "lint": "npx htmlhint index.html && npx stylelint css/*.css",
+    "format": "npx prettier --write .",
+    "serve": "python3 -m http.server 8000"
+  },
+  "keywords": [
+    "iphone",
+    "landing-page",
+    "responsive",
+    "modern-design",
+    "mobile-first",
+    "apple",
+    "smartphone",
+    "e-commerce"
+  ],
+  "author": "iPhone 17 Team",
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "htmlhint": "^1.1.4",
+    "stylelint": "^15.11.0",
+    "prettier": "^3.0.0"
+  },
+  "dependencies": {
+    "font-awesome": "^6.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vadymVolkov/iphone17.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vadymVolkov/iphone17/issues"
+  },
+  "homepage": "https://github.com/vadymVolkov/iphone17#readme",
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  }
+}
